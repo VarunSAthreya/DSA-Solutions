@@ -45,7 +45,7 @@ Note:
 5. 1 <= trust[i][0], trust[i][1] <= N
 */
 
-// Solution 1(faster)
+// Solution 1
 // O(N2) space
 
 class Solution {
@@ -67,7 +67,7 @@ class Solution {
     }
 }
 
-// Solution 2(slower)
+// Solution 2
 // O(N) space
 
 class Solution {
