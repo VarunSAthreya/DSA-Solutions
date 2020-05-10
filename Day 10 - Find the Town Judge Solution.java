@@ -45,4 +45,21 @@ Note:
 5. 1 <= trust[i][0], trust[i][1] <= N
 */
 
+//Solution 1
+
+class Solution {
+    public int findJudge(int N, int[][] nums) {
+        int[] trusts = new int[N];
+        int[] trusted = new int[N];
+        for(int[] x : nums){
+            trusts[x[0]-1]++;
+            trusted[x[1]-1]++;
+        }  
+        for(int i = 0;i<N; i++){
+            if(trusts[i] == 0 && trusted[i] == N-1)
+                return i+1;
+        }
+        return -1;
+    }
+}
 
