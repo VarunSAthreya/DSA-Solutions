@@ -33,7 +33,7 @@ class Solution {
             while(i  < num.length()-1 && num.charAt(i) <= num.charAt(i+1)){
                 i++;
             }
-            num =  num.substring(0, i) + num.substring(i+1, num.length());
+            num =  num.substring(0, i) + num.substring(i+1);
             k--;
         }
         for(i = 0; i < num.length(); i++){
