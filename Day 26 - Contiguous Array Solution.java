@@ -14,3 +14,23 @@ Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal numb
 Note: The length of the given binary array will not exceed 50,000.
 */
 
+class Solution {
+    public int findMaxLength(int[] arr) {
+        if(arr.length<=1)
+            return 0;
+        Map <Integer, Integer> map = new HashMap<>();
+        int sum = arr[0] == 0 ? -1 : 1;
+        int max = 0;
+        map.put(0, -1);
+        map.put(sum, 0);
+        for(int i = 1 ; i < arr.length; i++){
+            sum = arr[i] == 0 ? sum -1 : sum + 1;
+            if(map.containsKey(sum)){
+                max = Math.max(max, i - map.get(sum));
+            }
+            else
+                map.put(sum, i);
+        }
+        return max;
+    }
+}
