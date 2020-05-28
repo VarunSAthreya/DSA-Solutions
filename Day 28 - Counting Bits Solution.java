@@ -19,3 +19,13 @@ But can you do it in linear time O(n) /possibly in a single pass?
 2. Space complexity should be O(n).
 3. Can you do it like a boss? Do it without using any builtin function like __builtin_popcount in c++ or in any other language.
 */
+class Solution {
+    public int[] countBits(int num) {
+        int [] bit_count = new int[num+1];
+        Arrays.fill(bit_count, 0);
+        for(int i = 1; i <= num; i++){
+            bit_count[i] = bit_count[i>>1] + i%2;
+        }
+        return bit_count;
+    }
+}
