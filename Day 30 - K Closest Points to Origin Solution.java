@@ -31,3 +31,42 @@ Note:
 2. -10000 < points[i][0] < 10000
 3. -10000 < points[i][1] < 10000
 */
+
+class Point implements Comparable<Point>{
+    public int x,y;
+    public Point(int[] pt){
+        x = pt[0];
+        y = pt[1];
+    }
+    
+    @Override
+    public int compareTo(Point p){
+        return (p.x*p.x + p.y*p.y) - (x*x + y*y);
+    }
+}
+
+class Solution {
+    public int[][] kClosest(int[][] points, int k) {
+        PriorityQueue<Point> pq = new PriorityQueue();
+        
+        for( int i = 0 ; i< points.length; i++){
+            if(pq.size() < k)
+                pq.offer(new Point(points[i]));
+            else{
+                Point p = pq.peek();
+                if( (p.x*p.x + p.y*p.y) > (points[i][0]*points[i][0] + points[i][1]*points[i][1])){
+                    pq.poll();
+                    pq.offer(new Point(points[i]));
+                }
+            }
+        }
+        
+        int[][] result = new int[k][2];
+        for(int i = 0; i < k ; i++){
+            Point p = pq.poll();
+            result[i][0] = p.x;
+            result[i][1] = p.y;
+        }
+        return result;
+    }
+}
