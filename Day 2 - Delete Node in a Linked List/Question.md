@@ -1,6 +1,4 @@
-# Delete Node in a Linked List
-
-- #### Link: https://leetcode.com/explore/challenge/card/june-leetcoding-challenge/539/week-1-june-1st-june-7th/3348/
+# [Delete Node in a Linked List](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge/539/week-1-june-1st-june-7th/3348/)
 
 #### Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 
