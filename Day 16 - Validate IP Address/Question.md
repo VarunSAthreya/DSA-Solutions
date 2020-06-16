@@ -30,7 +30,7 @@ Output: "IPv6"
 
 Explanation: This is a valid IPv6 address, return "IPv6".
 ```
-***Example 3:***
+**Example 3:**
 ```
 Input: "256.256.256.256"
 
