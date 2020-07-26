@@ -38,3 +38,5 @@ This problem is equivalent to finding the topological order in a directed graph.
 **Hint #3**
 
 Topological sort could also be done via [BFS](https://en.wikipedia.org/wiki/Topological_sorting#Algorithms).
+
+[Solution](https://leetcode.com/articles/course-schedule-ii/)
