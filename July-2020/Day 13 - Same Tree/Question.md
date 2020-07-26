@@ -39,3 +39,5 @@ Input:     1         1
 
 Output: false
 ```
+
+[Solution](https://leetcode.com/articles/same-tree/)
