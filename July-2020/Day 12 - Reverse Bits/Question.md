@@ -27,3 +27,5 @@ Explanation: The input binary string 11111111111111111111111111111101 represents
 **Follow up:**
 
 If this function is called many times, how would you optimize it?
+
+[Solution](https://leetcode.com/articles/reverse-bits/)
