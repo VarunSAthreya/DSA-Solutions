@@ -31,4 +31,4 @@ How do they occur, periodically or randomly?
 
 You may find this [Wikipedia](https://en.wikipedia.org/wiki/Digital_root) article useful.
 
-[Solution](https://leetcode.com/articles/add-digits/)
+## [Solution](https://leetcode.com/articles/add-digits/)

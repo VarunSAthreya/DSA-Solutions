@@ -23,4 +23,4 @@ Output: [1]
 -   It's guaranteed that the answer is unique, in other words the set of the top k frequent elements is unique.
 -   You can return the answer in any order.
 
-[Solution](https://leetcode.com/articles/top-k-frequent-elements/)
+## [Solution](https://leetcode.com/articles/top-k-frequent-elements/)
