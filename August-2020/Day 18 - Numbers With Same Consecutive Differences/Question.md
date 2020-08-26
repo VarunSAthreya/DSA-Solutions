@@ -25,3 +25,5 @@ Output: [10,12,21,23,32,34,43,45,54,56,65,67,76,78,87,89,98]
 
 1. `1 <= N <= 9`
 2. `0 <= K <= 9`
+
+## [Solution](https://leetcode.com/problems/numbers-with-same-consecutive-differences/solution/)

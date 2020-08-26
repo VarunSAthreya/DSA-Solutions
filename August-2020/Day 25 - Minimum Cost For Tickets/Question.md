@@ -48,3 +48,5 @@ In total you spent \$17 and covered all the days of your travel.
 3. `days` is in strictly increasing order.
 4. `costs.length == 3`
 5. `1 <= costs[i] <= 1000`
+
+## [Solution](https://leetcode.com/problems/minimum-cost-for-tickets/solution/)

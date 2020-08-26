@@ -35,3 +35,5 @@ Output: "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaa
 
 -   `S` contains only uppercase, lowercase and spaces. Exactly one space between each word.
 -   `1 <= S.length <= 150.`
+
+## [Solution](https://leetcode.com/problems/goat-latin/solution/)
