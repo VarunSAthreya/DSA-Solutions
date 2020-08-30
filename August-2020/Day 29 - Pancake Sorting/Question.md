@@ -42,3 +42,5 @@ Note that other answers, such as [3, 3], would also be accepted.
 -   `1 <= A.length <= 100`
 -   `1 <= A[i] <= A.length`
 -   All integers in `A` are unique (i.e. `A` is a permutation of the integers from `1` to `A.length`).
+
+## [Solution](https://leetcode.com/problems/pancake-sorting/solution/)

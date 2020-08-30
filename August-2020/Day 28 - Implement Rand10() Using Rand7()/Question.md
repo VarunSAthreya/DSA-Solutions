@@ -34,3 +34,5 @@ Output: [8,1,10]
 
 1. What is the [expected value](https://en.wikipedia.org/wiki/Expected_value) for the number of calls to `rand7()` function?
 2. Could you minimize the number of calls to `rand7()`?
+
+## [Solution](https://leetcode.com/problems/implement-rand10-using-rand7/solution/)
