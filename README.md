@@ -1,2 +1,3 @@
-# [LeetCode-Challenge](https://leetcode.com/explore/)
-Solution for LeetCode Monthly Challenges
+# [LeetCode-Solutions](https://leetcode.com/explore/)
+
+Solution for LeetCode Questions.
