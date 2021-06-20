@@ -12,7 +12,7 @@ class Solution {
                     countS--;
                 i--;
             }
-            char left = i < 0 ? '@' : S.charAt(i);
+            char left = i < 0 ? '@' : S.charAt(i); // IF i IS NEGATIVE ADD @ ELSE ADD THE CHARACTER AT i
             while (j >= 0 && (countT > 0 || T.charAt(j) == '#')) {
                 if (T.charAt(j) == '#')
                     countT++;
@@ -20,7 +20,7 @@ class Solution {
                     countT--;
                 j--;
             }
-            char right = j < 0 ? '@' : T.charAt(j);
+            char right = j < 0 ? '@' : T.charAt(j); // IF j IS NEGATIVE ADD @ ELSE ADD THE CHARACTER AT j
             if (left != right)
                 return false;
             i--;
