@@ -2,56 +2,43 @@ class Solution {
     public static int[] searchRange(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
-        int initialIndex = -1;
+        int initialPos = binarySearch(nums, target, left, right);
 
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            if (nums[mid] == target) {
-                initialIndex = mid;
-                break;
-            } else if (nums[mid] > target) {
-                right = mid - 1;
-            } else {
-                left = mid + 1;
-            }
-        }
-        if (initialIndex == -1) {
+        if (initialPos == -1) {
             return new int[] { -1, -1 };
         } else {
-            left = lowerLimit(nums, 0, initialIndex - 1, target, initialIndex);
-            right = upperLimit(nums, initialIndex + 1, nums.length - 1, target, initialIndex);
+            left = lowerLimit(nums, 0, initialPos - 1, target, initialPos);
+            right = upperLimit(nums, initialPos + 1, nums.length - 1, target, initialPos);
             return new int[] { left, right };
         }
     }
 
-    public static int lowerLimit(int[] nums, int left, int right, int target, int previousAns) {
-        int initialIndex = -1;
+    public static int lowerLimit(int[] nums, int left, int right, int target, int previousPos) {
+        int currentLeftMostPos = binarySearch(nums, target, left, right);
 
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            if (nums[mid] == target) {
-                initialIndex = mid;
-                break;
-            } else if (nums[mid] > target) {
-                right = mid - 1;
-            } else {
-                left = mid + 1;
-            }
-        }
-        if (initialIndex == -1) {
-            return previousAns;
+        if (currentLeftMostPos == -1) {
+            return previousPos;
         } else {
-            return lowerLimit(nums, left, initialIndex - 1, target, initialIndex);
+            return lowerLimit(nums, left, currentLeftMostPos - 1, target, currentLeftMostPos);
         }
     }
 
-    public static int upperLimit(int[] nums, int left, int right, int target, int previousAns) {
-        int initialIndex = -1;
+    public static int upperLimit(int[] nums, int left, int right, int target, int previousPos) {
+        int currentRightMostPos = binarySearch(nums, target, left, right);
 
+        if (currentRightMostPos == -1) {
+            return previousPos;
+        } else {
+            return upperLimit(nums, currentRightMostPos + 1, right, target, currentRightMostPos);
+        }
+    }
+
+    public static int binarySearch(int[] nums, int target, int left, int right) {
+        int pos = -1;
         while (left <= right) {
             int mid = (left + right) / 2;
             if (nums[mid] == target) {
-                initialIndex = mid;
+                pos = mid;
                 break;
             } else if (nums[mid] > target) {
                 right = mid - 1;
@@ -59,10 +46,6 @@ class Solution {
                 left = mid + 1;
             }
         }
-        if (initialIndex == -1) {
-            return previousAns;
-        } else {
-            return upperLimit(nums, initialIndex + 1, right, target, initialIndex);
-        }
+        return pos;
     }
 }
