@@ -1,8 +1,8 @@
 # [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
-Level: `Medium`.
+**Level:** `Medium`.
 
-Topics: `Array`, `Divide And Conquer`, `Sorting`, `Heap(Priority Queue)`, `QuickSelect`.
+**Topics:** `Array`, `Divide And Conquer`, `Sorting`, `Heap(Priority Queue)`, `QuickSelect`.
 
 Given an integer array `nums` and an integer `k`, return the <code>k<sup>th</sup></code> largest element in the array.
 
