@@ -1,5 +1,9 @@
 # [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
+**Level:** `Medium`.
+
+**Topics:** `Array`, `Binary Search`, `Sorting`, `Heap(Priority Queue)`, `Matrix`.
+
 Given an `n x n` `matrix` where each of the rows and columns are sorted in ascending order, return the <code>k<sup>th</sup></code> _smallest element in the matrix_.
 
 Note that it is the <code>k<sup>th</sup></code> smallest element **in the sorted order**, not the <code>k<sup>th</sup></code> **distinct** element.
