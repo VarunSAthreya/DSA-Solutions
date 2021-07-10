@@ -1,5 +1,9 @@
 # [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
 
+**Level**: `Medium`.
+
+**Topic**: `Tree`, `Binary Tree`, `Binary Search`, `Depth First Search`.
+
 Given the `root` of a **complete** binary tree, return the number of the nodes in the tree.
 
 According to **[Wikipedia(http://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees)]**, every level, except possibly the last, is completely filled in a complete binary tree, and all nodes in the last level are as far left as possible. It can have between `1` and <code>2<sup>h</sup></code> nodes inclusive at the last level h.
