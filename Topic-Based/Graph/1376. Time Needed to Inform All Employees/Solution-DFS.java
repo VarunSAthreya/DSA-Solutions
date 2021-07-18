@@ -1,5 +1,4 @@
-
-// Detailed Solution:
+// Detailed Solution: Top-Down Approach
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         List<ArrayList<Integer>> graph = new ArrayList<>();
@@ -31,7 +30,7 @@ class Solution {
     }
 }
 
-// Best Solution:
+// Best Solution: Bottom-Up Approach
 
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
