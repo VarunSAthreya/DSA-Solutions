@@ -1,5 +1,9 @@
 # [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 
+**Level:** `Medium`.
+
+**Topics:** `Graph`, `Breadth-First Search`, `Depth-First Search`, `Topological Sort`.
+
 There are a total of `numCourses` courses you have to take, labeled from `0` to `numCourses - 1`. You are given an array `prerequisites` where `prerequisites[i] = [ai, bi]` indicates that you **must** take course <code>b<sub>i</sub></code> first if you want to take course <code>a<sub>i</sub></code>.
 
 -   For example, the pair `[0, 1]`, indicates that to take course `0` you have to first take course `1`.
