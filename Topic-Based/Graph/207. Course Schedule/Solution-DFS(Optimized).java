@@ -1,33 +1,35 @@
-// 3ms
+// 1ms
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        ArrayList<Integer>[] adjList = new ArrayList[numCourses];
+        ArrayList[] graph = new ArrayList[numCourses];
+        for (int i = 0; i < numCourses; i++)
+            graph[i] = new ArrayList();
+
+        boolean[] visited = new boolean[numCourses];
+        boolean[] dp = new boolean[numCourses];
+
+        for (int i = 0; i < prerequisites.length; i++) {
+            graph[prerequisites[i][1]].add(prerequisites[i][0]);
+        }
+
         for (int i = 0; i < numCourses; i++) {
-            adjList[i] = new ArrayList();
-        }
-
-        for (int[] pre : prerequisites) {
-            adjList[pre[0]].add(pre[1]);
-        }
-
-        int[] visited = new int[numCourses];
-        for (int course = 0; course < numCourses; course++) {
-            if (visited[course] == 0 && !dfs(adjList, visited, course))
+            if (!dfs(graph, i, visited, dp))
                 return false;
         }
         return true;
     }
 
-    private boolean dfs(ArrayList<Integer>[] graph, int[] visited, int course) {
-        if (visited[course] == 1)
-            return false;
-        visited[course] = 1;
-        for (int vertex : graph[course]) {
-            if (!dfs(graph, visited, vertex))
+    private boolean dfs(ArrayList[] graph, int course, boolean[] visited, boolean[] dp) {
+        if (visited[course])
+            return dp[course];
+        else
+            visited[course] = true;
+
+        for (int i = 0; i < graph[course].size(); i++) {
+            if (!dfs(graph, (int) graph[course].get(i), visited, dp))
                 return false;
         }
-        visited[course] = 2;
-
+        dp[course] = true;
         return true;
     }
 }
