@@ -8,8 +8,10 @@ class Solution {
 
         for (int i = 1; i < n; i++) {
             for (int[] edge : times) {
-                int u = edge[0] - 1, v = edge[1] - 1, w = edge[2];
-                disTo[v] = Math.min(disTo[v], disTo[u] + w);
+                int start = edge[0] - 1;
+                int target = edge[1] - 1;
+                int weight = edge[2];
+                disTo[target] = Math.min(disTo[target], disTo[start] + weight);
             }
         }
 

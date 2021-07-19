@@ -1,5 +1,9 @@
 # [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 
+**Level:** `Medium`.
+
+**Topics:** `Graph`, `Breadth-First Search`, `Depth-First Search`, `Heap (Priority Queue)`, `Shortest Path`.
+
 You are given a network of `n` nodes, labeled from 1 to n. You are also given `times`, a list of travel times as directed edges `times[i] = (ui, vi, wi)`, where <code>u<sub>i</sub></code> is the source node, <code>v<sub>i</sub></code> is the target node, and <code>w<sub>i</sub></code> is the time it takes for a signal to travel from source to target.
 
 We will send a signal from a given node `k`. Return the time it takes for all the `n` nodes to receive the signal. If it is impossible for all the `n` nodes to receive the signal, return `-1`.
