@@ -1,5 +1,9 @@
 # [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
 
+**Level**: `Medium`.
+
+**Topic**: `Array`, `Two Pointer`.
+
 Implement **next permutation**, which rearranges numbers into the lexicographically next greater permutation of numbers.
 
 If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).
