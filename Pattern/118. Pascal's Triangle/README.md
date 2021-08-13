@@ -22,4 +22,22 @@ Output: [[1]]
 
 **Constraints:**
 
-- `1 <= numRows <= 30`
+-   `1 <= numRows <= 30`
+
+**Not part of the question:**
+But slight variation of the problem:
+
+-   For finding the value of pascal triangle in a specific index(r,c) then formula: <sup>r-1</sup>C<sub>c-1</sub>
+
+-   For printing the value of the n row of pascal triangle in O(n)
+    Calculating value of:
+    `[n * (n-1) * --- * (n-k+1) ]`
+    code:
+
+```c++
+for (int i = 0; i < k; i++)
+{
+    res *= (n - 1);
+    res /= (i + 1);
+}
+```
