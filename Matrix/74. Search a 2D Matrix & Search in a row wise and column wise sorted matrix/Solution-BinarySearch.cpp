@@ -3,7 +3,7 @@ class Solution
 public:
     bool searchMatrix(vector<vector<int>> &matrix, int target)
     {
-        bool flag = false;
+
         int n = matrix.size(), m = matrix[0].size();
         for (int i = 0; i < n; i++)
         {
@@ -13,8 +13,7 @@ public:
                 int mid = left + (right - left) / 2;
                 if (matrix[i][mid] == target)
                 {
-                    flag = true;
-                    break;
+                    return true;
                 }
                 else if (matrix[i][mid] < target)
                 {
@@ -25,11 +24,6 @@ public:
                     right = mid - 1;
                 }
             }
-            if (flag)
-            {
-                break;
-            }
+            return false;
         }
-        return flag;
-    }
-};
+    };
