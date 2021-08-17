@@ -129,13 +129,13 @@ void solve() {
 		if (arr[i] == setA)
 		{
 			int ans[] = {setB, setA};
-			cout << ans[1] << " " << ans[0];
+			cout << ans[1] << " " << ans[0]; //missing " " repeating
 			break;
 		}
 		else if (arr[i] == setB)
 		{
 			int ans[] = {setA, setB};
-			cout << ans[1] << " " << ans[0];
+			cout << ans[1] << " " << ans[0]; //missing " " repeating
 			break;
 		}
 	}
