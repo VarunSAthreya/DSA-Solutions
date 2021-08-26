@@ -1,5 +1,9 @@
 # [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 
+**Level**: `Hard`.
+
+**Topic**: `Array`, `Backtracking`,`Matrix`.
+
 Write a program to solve a Sudoku puzzle by filling the empty cells.
 
 A sudoku solution must satisfy **all of the following rules**:
