@@ -11,7 +11,7 @@ public:
         if (dp[ind] != -1)
             return dp[ind];
 
-        for (int i = 1; i <= nums[ind]; i++)
+        for (int i = nums[ind]; i > 0; i--)
         {
             int res = find(nums, dp, ind + i);
             if (res == 1)
