@@ -14,6 +14,8 @@ Return _the modified image after performing the flood fill_.
 
 **Example 1:**
 
+![Example 1](https://assets.leetcode.com/uploads/2021/06/01/flood1-grid.jpg)
+
 ```
 Input: image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, newColor = 2
 Output: [[2,2,2],[2,2,0],[2,0,1]]
