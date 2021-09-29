@@ -1,5 +1,9 @@
 # [1567. Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)
 
+**Level:** `Medium`.
+
+**Topics:** `Array`, `Dynamic Programming`, `Greedy`.
+
 Given an array of integers `nums`, find the maximum length of a subarray where the product of all its elements is positive.
 
 A subarray of an array is a consecutive sequence of zero or more values taken out of that array.
