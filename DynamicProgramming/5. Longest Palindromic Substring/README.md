@@ -1,5 +1,9 @@
 # [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
+**Level**: `Medium`.
+
+**Topic**: `String`, `Dynamic Programming`.
+
 Given a string `s`, return _the longest palindromic substring in `s`_.
 
 **Example 1:**
