@@ -1,5 +1,9 @@
 # [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
+**Level**: `Easy`.
+
+**Topic**: `Stack`, `Tree`, `Binary Tree`, `Depth First Search`.
+
 Given the `root` of a binary tree, return _the inorder traversal of its nodes' values_.
 
 **Example 1:**
