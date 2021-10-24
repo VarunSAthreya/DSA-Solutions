@@ -1,16 +1,16 @@
 class Solution
 {
 public:
-    vector<int> inorderTraversal(TreeNode *root)
+    vector<int> preorderTraversal(TreeNode *root)
     {
-        vector<int> inorder;
+        vector<int> preorder;
 
         TreeNode *cur = root;
         while (cur != NULL)
         {
             if (cur->left == NULL)
             {
-                inorder.push_back(cur->val);
+                preorder.push_back(cur->val);
                 cur = cur->right;
             }
             else
@@ -24,16 +24,16 @@ public:
                 if (prev->right == NULL)
                 {
                     prev->right = cur;
+                    preorder.push_back(cur->val);
                     cur = cur->left;
                 }
                 else
                 {
                     prev->right = NULL;
-                    inorder.push_back(cur->val);
                     cur = cur->right;
                 }
             }
         }
-        return inorder;
+        return preorder;
     }
 };
