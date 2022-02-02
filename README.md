@@ -3,7 +3,7 @@
 This repo contains solutions for DS-Algo Practice Questions from various platforms:
 
 -   [Leetcode Monthly Challenges](./Monthly-Challenges)
--   [Array](./Array)
+-   [Arrays](./Arrays)
 -   [Backtracking](./Backtracking)
 -   [Binary Search](./BinarySearch)
 -   [Design](./Design)
