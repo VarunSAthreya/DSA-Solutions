@@ -1,5 +1,9 @@
 # [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 
+**Level**: `Easy`.
+
+**Topic**: `Tree`, `Binary Tree`, `Depth First Search`.
+
 Given a binary tree, determine if it is height-balanced.
 
 For this problem, a height-balanced binary tree is defined as:
