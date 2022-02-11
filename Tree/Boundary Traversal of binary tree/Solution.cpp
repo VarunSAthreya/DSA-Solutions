@@ -21,7 +21,7 @@ public:
         addLeftBoundary(root, res);
 
         // add leaf nodes
-        addLeaveNodes(root, res);
+        addLeafNode(root, res);
 
         addRightBoundary(root, res);
         return res;
@@ -64,7 +64,7 @@ public:
         }
     }
 
-    void addLeaveNodes(Node *root, vector<int> &res)
+    void addLeafNode(Node *root, vector<int> &res)
     {
         if (isLeaf(root))
         {
@@ -72,8 +72,8 @@ public:
             return;
         }
         if (root->left)
-            addLeaveNodes(root->left, res);
+            addLeafNode(root->left, res);
         if (root->right)
-            addLeaveNodes(root->right, res);
+            addLeafNode(root->right, res);
     }
 };
