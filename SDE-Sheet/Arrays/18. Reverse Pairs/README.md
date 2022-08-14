@@ -1,5 +1,9 @@
 # [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
 
+**Level**: `Hard`.
+
+**Topic**: `Array`, `Binary Search`, `Divide and Conquer`, `Binary Indexed Search`, `Segment Tree`, `Merge Sort`, `Ordered Set`.
+
 Given an integer array `nums`, _return the number of **reverse pairs** in the array._
 
 A reverse pair is a pair `(i, j)` where `0 <= i < j < nums.length and nums[i] > 2 * nums[j]`.
