@@ -1,6 +1,6 @@
-# DS-Algo Practice Questions
+# Interview Prepration
 
-This repo contains solutions for DS-Algo Practice Questions from various platforms:
+Contains practice questions of Data Structures, Algorithms and SQL for Interview Preparation from various platforms.
 
 - [Leetcode Monthly Challenges](./Monthly-Challenges)
 - [Arrays](./Arrays)
