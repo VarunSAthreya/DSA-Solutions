@@ -1,4 +1,4 @@
-# Interview Prepration
+# Interview Preparation
 
 Contains practice questions of Data Structures, Algorithms and SQL for Interview Preparation from various platforms.
 
