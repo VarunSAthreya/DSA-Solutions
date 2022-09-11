@@ -10,7 +10,7 @@ Return _the max sliding window_.
 
 **Example 1:**
 
-```
+```txt
 Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
 Output: [3,3,5,5,6,7]
 Explanation:
@@ -26,28 +26,28 @@ Window position                Max
 
 **Example 2:**
 
-```
+```txt
 Input: nums = [1], k = 1
 Output: [1]
 ```
 
 **Example 3:**
 
-```
+```txt
 Input: nums = [1,-1], k = 1
 Output: [1,-1]
 ```
 
 **Example 4:**
 
-```
+```txt
 Input: nums = [9,11], k = 2
 Output: [11]
 ```
 
 **Example 5:**
 
-```
+```txt
 Input: nums = [4,-2], k = 2
 Output: [4]
 ```
