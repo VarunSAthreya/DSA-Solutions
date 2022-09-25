@@ -10,19 +10,19 @@ The solution set **must not** contain duplicate subsets. Return the solution in 
 
 **Example 1:**
 
-```
+```txt
 Input: nums = [1,2,2]
 Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
 ```
 
 **Example 2:**
 
-```
+```txt
 Input: nums = [0]
 Output: [[],[0]]
 ```
 
 **Constraints:**
 
--   `1 <= nums.length <= 10`
--   `-10 <= nums[i] <= 10`
+- `1 <= nums.length <= 10`
+- `-10 <= nums[i] <= 10`
