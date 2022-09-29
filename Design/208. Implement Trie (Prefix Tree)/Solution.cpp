@@ -29,7 +29,7 @@ public:
         {
             if (!curr->edges.count(ch))
             {
-                curr->edges[ch] = new TrieNode;
+                curr->edges[ch] = new TrieNode();
             }
             curr = curr->edges[ch];
         }
