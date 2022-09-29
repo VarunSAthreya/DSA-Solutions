@@ -23,3 +23,4 @@ Contains practice questions of Data Structures, Algorithms and SQL for Interview
 - [Stack](./Stack)
 - [String](./String)
 - [Tree](./Tree)
+- [Trie](./Trie/)

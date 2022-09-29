@@ -2,3 +2,4 @@
 
 - [Array](./Arrays/)
 - [Linkedlist](./Linkedlist/)
+- [Greedy](./Greedy/)
