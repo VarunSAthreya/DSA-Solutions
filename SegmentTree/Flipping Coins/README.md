@@ -29,7 +29,6 @@ Output 1 line for each of the queries of the form "1 A B" containing the require
 0 0 3
 1 0 3
 1 3 3
-
 ```
 
 **Sample Output :**
@@ -46,7 +45,7 @@ Output 1 line for each of the queries of the form "1 A B" containing the require
 **Constraints :**
 
 ```txt
-1 &lt;= N &lt;= 100000
-1 &lt;= Q &lt;= 100000
-0 &lt;= A &lt;= B &lt;= N - 1
+1 <= N <= 100000
+1 <= Q <= 100000
+0 <= A <= B <= N - 1
 ```
