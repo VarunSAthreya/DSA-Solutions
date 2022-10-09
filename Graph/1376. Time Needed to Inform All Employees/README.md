@@ -16,7 +16,7 @@ Return the _number of minutes_ needed to inform all the employees about the urge
 
 **Example 1:**
 
-```
+```txt
 Input: n = 1, headID = 0, manager = [-1], informTime = [0]
 Output: 0
 Explanation: The head of the company is the only employee in the company.
@@ -26,7 +26,7 @@ Explanation: The head of the company is the only employee in the company.
 
 ![Example2](https://assets.leetcode.com/uploads/2020/02/27/graph.png)
 
-```
+```txt
 Input: n = 6, headID = 2, manager = [2,2,-1,2,2,2], informTime = [0,0,1,0,0,0]
 Output: 1
 Explanation: The head of the company with id = 2 is the direct manager of all the employees in the company and needs 1 minute to inform them all.
@@ -37,7 +37,7 @@ The tree structure of the employees in the company is shown.
 
 ![Example3](https://assets.leetcode.com/uploads/2020/02/28/1730_example_3_5.PNG)
 
-```
+```txt
 Input: n = 7, headID = 6, manager = [1,2,3,4,5,6,-1], informTime = [0,6,5,4,3,2,1]
 Output: 21
 Explanation: The head has id = 6. He will inform employee with id = 5 in 1 minute.
@@ -51,7 +51,7 @@ Needed time = 1 + 2 + 3 + 4 + 5 + 6 = 21.
 
 **Example 4:**
 
-```
+```txt
 Input: n = 15, headID = 0, manager = [-1,0,0,1,1,2,2,3,3,4,4,5,5,6,6], informTime = [1,1,1,1,1,1,1,0,0,0,0,0,0,0,0]
 Output: 3
 Explanation: The first minute the head will inform employees 1 and 2.
@@ -61,19 +61,19 @@ The third minute they will inform the rest of employees.
 
 **Example 5:**
 
-```
+```txt
 Input: n = 4, headID = 2, manager = [3,3,-1,2], informTime = [0,0,162,914]
 Output: 1076
 ```
 
 **Constraints:**
 
--   <code>1 <= n <= 10<sup>5</sup></code>
--   `0 <= headID < n`
--   `manager.length == n`
--   `0 <= manager[i] < n`
--   `manager[headID] == -1`
--   `informTime.length == n`
--   `0 <= informTime[i] <= 1000`
--   `informTime[i] == 0` if employee `i` has no subordinates.
--   It is **guaranteed** that all the employees can be informed.
+- <code>1 <= n <= 10<sup>5</sup></code>
+- `0 <= headID < n`
+- `manager.length == n`
+- `0 <= manager[i] < n`
+- `manager[headID] == -1`
+- `informTime.length == n`
+- `0 <= informTime[i] <= 1000`
+- `informTime[i] == 0` if employee `i` has no subordinates.
+- It is **guaranteed** that all the employees can be informed.
