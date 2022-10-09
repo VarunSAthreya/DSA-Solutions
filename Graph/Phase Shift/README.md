@@ -1,6 +1,6 @@
 # [C. Phase Shift](https://codeforces.com/contest/1735/problem/C)
 
-**Level:** `1400`.
+**Level:** `CF 1400`.
 
 **Topics:** `Graphs`, `Depth-First Search`, `Greedy`, `String`, `DSU`.
 

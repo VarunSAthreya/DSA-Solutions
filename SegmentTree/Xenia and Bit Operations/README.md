@@ -1,6 +1,6 @@
-# [Xenia and Bit Operations](https://codeforces.com/problemset/problem/339/D)
+# [D. Xenia and Bit Operations](https://codeforces.com/problemset/problem/339/D)
 
-**Level:** `Hard`.
+**Level:** `CF 1700`.
 
 **Topic:** `Tree`.
 

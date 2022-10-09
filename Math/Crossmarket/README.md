@@ -1,6 +1,6 @@
-# [Crossmarket](https://codeforces.com/problemset/problem/1715/A)
+# [A. Crossmarket](https://codeforces.com/problemset/problem/1715/A)
 
-**Level**: `Easy`.
+**Level**: `CF 800`.
 
 **Topic**: `Math`.
 

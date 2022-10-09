@@ -1,6 +1,6 @@
-# [Ela Sorting Books](https://codeforces.com/contest/1737/problem/A)
+# [A. Ela Sorting Books](https://codeforces.com/contest/1737/problem/A)
 
-**Level:** `A`.
+**Level:** `CF 900`.
 
 **Topic:** `Greedy`, `Implementation`.
 

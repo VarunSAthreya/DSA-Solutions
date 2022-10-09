@@ -1,6 +1,6 @@
-# [Sereja and Brackets](https://codeforces.com/problemset/problem/380/C)
+# [C. Sereja and Brackets](https://codeforces.com/problemset/problem/380/C)
 
-**Level:** `Hard`.
+**Level:** `CF 2000`.
 
 **Topic:** `Tree`.
 

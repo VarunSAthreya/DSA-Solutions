@@ -1,6 +1,6 @@
-# [Adding Digits](https://codeforces.com/problemset/problem/260/A)
+# [A. Adding Digits](https://codeforces.com/problemset/problem/260/A)
 
-**Level**: `Easy`.
+**Level**: `CF 1400`.
 
 **Topic**: `Math`.
 
