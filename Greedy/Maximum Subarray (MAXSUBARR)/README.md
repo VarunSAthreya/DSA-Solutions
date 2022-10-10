@@ -1,6 +1,6 @@
 # [Maximum Subarray (MAXSUBARR)](https://www.codechef.com/submit/MAXSUBARR/)
 
-**Level:** `Medium`.
+**Level:** `CC 1600`.
 
 **Topics:** `Greedy`, `Array`, `Kadane Algorithm`, `Math`.
 
