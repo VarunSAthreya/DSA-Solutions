@@ -2,7 +2,7 @@
 
 **Level**: `Medium`.
 
-**Topic**:
+**Topic**: `Linked List`, `Two Pointers`.
 
 You are given the `head` of a linked list, and an integer `k`.
 
