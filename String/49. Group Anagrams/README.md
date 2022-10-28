@@ -10,27 +10,27 @@ An **Anagram** is a word or phrase formed by rearranging the letters of a differ
 
 **Example 1:**
 
-```
+```txt
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 ```
 
 **Example 2:**
 
-```
+```txt
 Input: strs = [""]
 Output: [[""]]
 ```
 
 **Example 3:**
 
-```
+```txt
 Input: strs = ["a"]
 Output: [["a"]]
 ```
 
 **Constraints:**
 
--   <code>1 <= strs.length <= 10<sup>4</sup></code>
--   `0 <= strs[i].length <= 100`
--   `strs[i]` consists of lower-case English letters.
+- <code>1 <= strs.length <= 10<sup>4</sup></code>
+- `0 <= strs[i].length <= 100`
+- `strs[i]` consists of lower-case English letters.
