@@ -14,27 +14,27 @@ Return _the minimum integer `k` such that she can eat all the bananas within `h`
 
 **Example 1:**
 
-```
+```txt
 Input: piles = [3,6,7,11], h = 8
 Output: 4
 ```
 
 **Example 2:**
 
-```
+```txt
 Input: piles = [30,11,23,4,20], h = 5
 Output: 30
 ```
 
 **Example 3:**
 
-```
+```txt
 Input: piles = [30,11,23,4,20], h = 6
 Output: 23
 ```
 
 **Constraints:**
 
--   <code>1 <= piles.length <= 10<sup>4</sup></code>
--   <code>piles.length <= h <= 10<sup>9</sup></code>
--   <code>1 <= piles[i] <= 10<sup>9</sup></code>
+- <code>1 <= piles.length <= 10<sup>4</sup></code>
+- <code>piles.length <= h <= 10<sup>9</sup></code>
+- <code>1 <= piles[i] <= 10<sup>9</sup></code>
